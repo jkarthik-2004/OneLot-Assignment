@@ -2,10 +2,10 @@ import React from "react";
 import { US } from "country-flag-icons/react/3x2";
 export default function Footer() {
   return (
-    <footer className="flex mt-17 justify-between items-center ml-10 mr-10 p-10">
+    <footer className="flex flex-col sm:flex-row mt-17 sm:justify-between sm:items-center ml-10 mr-10 p-10">
       <img src="onelot-logo.webp" alt="" />
       <div className="flex flex-col gap-1">
-        <ul className="flex gap-5 text-[#6B7280]">
+        <ul className="flex flex-col sm:flex-row gap-5 text-[#6B7280]">
           <li>
             <a href="/">Home</a>
           </li>

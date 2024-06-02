@@ -10,7 +10,7 @@ export default function Copyright() {
         </a>
         . All Rights Reserved.
       </span>
-      <div className="flex justify-between">
+      <div className="flex flex-col sm:flex-row justify-between">
         <span class="text-gray-500  dark:text-gray-400 text-left">
           © 2023
           <a class="" href="/">
