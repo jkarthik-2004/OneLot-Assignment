@@ -50,7 +50,7 @@ export default function Loans() {
         </p>
         <p className="text-gray-500 text-balance text-left">
           OneLot offers a suite of powerful digital tools designed to optimize
-          your dealership's operations.
+          your dealership<span>&apos;</span>s operations.
         </p>
       </div>
     </div>
