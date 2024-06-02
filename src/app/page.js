@@ -1,11 +1,6 @@
-import React from 'react'
-import Hero from './components/Hero'
-import Navbar from './components/Navbar'
+import React from "react";
+import Hero from "./components/Hero";
 
 export default function page() {
-  return (
-    
-      <Hero/>
-    
-  )
+  return <Hero />;
 }
