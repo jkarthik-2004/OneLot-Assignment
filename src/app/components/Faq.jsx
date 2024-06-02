@@ -3,7 +3,7 @@ import React from "react";
 export default function Faq() {
   return (
     <div className="bg-gray-50 mt-10 p-20">
-      <div class="max-w-screen-xl mx-auto px-5 bg-gray-50 min-h-screen ">
+      <div class="max-w-screen-xl mx-auto px-5 bg-gray-50">
         <div class="flex flex-col items-center">
           <p class="text-4xl font-extrabold mb-8 text-center text-black">
             Frequently asked questions
