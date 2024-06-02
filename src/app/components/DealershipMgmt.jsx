@@ -84,7 +84,7 @@ export default function DealershipMgmt() {
 
         <hr className="mt-6 mb-6" />
         <p className="text-gray-500 text-balance text-left">
-          Sign-up OneLot's dealer platform today, and your cars easier.
+          Sign-up OneLot<span>&apos;</span>s dealer platform today, and your cars easier.
         </p>
 
         <p className="text-left mt-5">

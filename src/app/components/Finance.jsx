@@ -76,7 +76,7 @@ export default function Finance() {
 
         <hr className="mt-6 mb-6" />
         <p className="text-gray-500 text-balance text-left">
-          Use OneLot's financing solution today, grow the number of cars in your
+          Use OneLot<span>&apos;</span>s financing solution today, grow the number of cars in your
           lot and increase your profits
         </p>
 
