@@ -5,8 +5,8 @@ import { IoMenu, IoClose } from "react-icons/io5";
 export default function Navbar() {
   let [open, setOpen] = useState(false);
   return (
-    <div>
-      <nav className="fixed top-0 left-0 w-full flex items-center justify-between p-2 bg-white shadow-sm z-50">
+    <div className="w-full">
+      <nav className="fixed top-0 left-0 w-screen flex items-center justify-between p-2 bg-white shadow-sm z-50">
         <div className="flex items-center gap-5">
           <img src="onelot-logo.webp" alt="onelot-logo" />
           {!open && (
@@ -68,11 +68,13 @@ export default function Navbar() {
             Inquire Now
           </button>
         </div>
-        <div
-          onClick={() => setOpen(!open)}
-          className="text-3xl absolute right-8 top-6 cursor-pointer md:hidden z-50"
-        >
-          {open ? <IoClose /> : <IoMenu />}
+        <div className="flex md:hidden justify-between items-center mr-2 p-2">
+          <div
+            onClick={() => setOpen(!open)}
+            className="text-3xl cursor-pointer z-50"
+          >
+            {open ? <IoClose /> : <IoMenu />}
+          </div>
         </div>
       </nav>
 
@@ -135,7 +137,7 @@ export default function Navbar() {
             </a>
             <button
               type="button"
-              className="focus:outline-none text-white bg-[#57009C] hover:bg-[#57009C] focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5  mb-2"
+              className="focus:outline-none text-white bg-[#57009C] hover:bg-[#57009C] focus:ring-4 font-medium rounded-lg text-sm px-5 py-2.5 mb-2"
             >
               Inquire Now
             </button>
